@@ -145,12 +145,6 @@ function App() {
               L'utilisation de smart contracts garantit que les termes et
               conditions de la location sont clairs et transparents, sans la
               nécessité d'une tierce partie. <br />
-              <em>Les tokens W2R</em> récompensant chaque location peuvent être
-              échangés sur d'autres plateformes, ce qui permet aux utilisateurs
-              de les utiliser pour d'autres opérations. <br />
-              Il permettent aussi de participer à la gouvernance de la
-              communauté ainsi que de générer un revenu passif grâce au staking
-              des tokens W2R.
             </li>
             <hr />
             <li>
