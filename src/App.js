@@ -5,7 +5,9 @@ import AOS from "aos";
 import Wheels2Rent from "./img/2Wheels2Rent.png";
 import max from "./img/max.png";
 import ludo from "./img/ludo.png";
-import question from "./img/question.png";
+import franck from "./img/franck.png";
+import thierry from "./img/thierry.png";
+import w2r from "./img/W2R.png";
 import "@fontsource/montserrat";
 
 AOS.init({
@@ -76,7 +78,7 @@ function App() {
                 <br />
                 <strong>Profitez</strong> d'un moyen de transport pratique,
                 écologique et gratifiant... Car plus longtemps vous louez, plus
-                vous gagner des tokens W2R !
+                vous gagnez de tokens W2R !
                 <br />
                 <strong>Rejoignez</strong> notre communauté et découvrez les
                 avantages des tokens W2R !
@@ -99,9 +101,15 @@ function App() {
               <br /> Les propriétaires de vélos peuvent s'inscrire sur la
               plateforme et enregistrer les informations sur leur vélo, telles
               que la marque, le modèle, l'année de fabrication, la taille et les
-              photos. Location : Les utilisateurs peuvent parcourir les offres
-              de location de vélos disponibles et réserver un vélo pour une
-              période de temps déterminée.
+              photos.
+            </li>
+            <hr />
+            <li>
+              <strong>🚴🏽‍♀️ Location :</strong>
+              <br />
+              <br /> Les utilisateurs peuvent parcourir les offres de location
+              de vélos disponibles et réserver un vélo pour une période de temps
+              déterminée.
             </li>
             <hr />
             <li>
@@ -118,19 +126,19 @@ function App() {
               <strong>🚴🏼 Paiement :</strong>
               <br />
               <br /> Les utilisateurs paient les frais de location en utilisant
-              leur wallet décentralisé. Une caution est également déposée dans
-              le smart contract.
+              leur wallet décentralisé. Pour le locataire, une caution est
+              également déposée dans le smart contract.
             </li>
             <hr />
             <li>
               <strong>🚵🏼‍♀️ Utilisation :</strong>
               <br />
-              <br /> Le propriétaire de vélo remet le vélo à l'utilisateur, et
+              <br /> Le propriétaire du vélo le remet à l'utilisateur, et
               l'utilisateur peut utiliser le vélo pour la période de location
-              convenue. Retour : À la fin de la période de location,
-              l'utilisateur doit retourner le vélo au propriétaire, qui vérifie
-              l'état du vélo et confirme la fin de la location, ce qui rendra
-              automatiquement la caution au locataire.
+              convenue. À la fin de la période de location, l'utilisateur doit
+              retourner le vélo au propriétaire, qui vérifie l'état du vélo et
+              confirme la fin de la location, ce qui rendra automatiquement la
+              caution au locataire.
             </li>
             <hr />
             <li>
@@ -140,20 +148,25 @@ function App() {
               supplémentaire en louant leur vélo lorsqu'ils ne l'utilisent pas,
               ce qui peut être bénéfique pour les propriétaires qui n'utilisent
               pas leur vélo tous les jours. Les utilisateurs peuvent économiser
-              de l'argent en louant un vélo plutôt qu'en achetant un vélo pour
-              un usage temporaire. <br />
+              de l'argent en louant un vélo plutôt que d'en acheter un pour un
+              usage temporaire. <br />
               L'utilisation de smart contracts garantit que les termes et
               conditions de la location sont clairs et transparents, sans la
               nécessité d'une tierce partie. <br />
             </li>
             <hr />
             <li>
-              <strong>🚵🏿‍♂️ Les tokens W2R :</strong>
+              <img
+                src={w2r}
+                alt="W2R"
+                style={{ width: "50px", marginBottom: "-15px" }}
+              />
+              <strong>Les tokens W2R :</strong>
               <br />
               <br />
-              <em>Les tokens W2R</em> récompensant chaque location peuvent être
-              échangés sur d'autres plateformes, ce qui permet aux utilisateurs
-              de les utiliser pour d'autres opérations. <br />
+              <em>Les tokens W2R</em>, récompensant chaque location, peuvent
+              être échangés sur d'autres plateformes, ce qui permet aux
+              utilisateurs de les utiliser pour d'autres opérations. <br />
               Il permettent aussi de participer à la gouvernance de la
               communauté ainsi que de générer un revenu passif grâce à leur
               staking sur notre plateforme !
@@ -201,7 +214,7 @@ function App() {
             <h4>Soutenance de la version 2</h4>
             <p>
               Présentation de 2Wheels2Rent à l'ensemble face à un jury d'experts
-              du web3. La date peut variée en fonction des disponibilités des
+              du web3. La date peut varier en fonction des disponibilités des
               experts.
             </p>
           </div>
@@ -231,7 +244,7 @@ function App() {
               data-aos="animate__animated animate__bounceInLeft"
             >
               <h4>
-                Ludovic / <span className="job">Consultant Blockchain</span>
+                Ludovic / <span className="job">Consultant</span>
               </h4>
               <img src={ludo} alt="Ludo" />
             </div>
@@ -240,19 +253,18 @@ function App() {
               data-aos="animate__animated animate__lightSpeedInRight"
             >
               <h4>
-                Nous cherchons /{" "}
-                <span className="job">Consultant Blockchain</span>
+                Franck / <span className="job">Consultant</span>
               </h4>
-              <img src={question} alt="question" />
+              <img src={franck} alt="question" />
             </div>
             <div
               className="member"
               data-aos="animate__animated animate__lightSpeedInLeft"
             >
               <h4>
-                Nous cherchons / <span className="job">Consultant DeFi</span>
+                Thierry / <span className="job">Consultant</span>
               </h4>
-              <img src={question} alt="question" />
+              <img src={thierry} alt="question" />
             </div>
           </div>
         </div>
