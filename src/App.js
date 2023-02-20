@@ -83,7 +83,7 @@ function App() {
         <div className="heroD"></div>
       </section>
       <section className="discord">
-        <div className="container">
+        <div className="container" data-aos="animate__animated animate__zoomIn">
           <h1>
             <em>🚲 Comment cela fonctionne-t-il ?</em>
           </h1>
