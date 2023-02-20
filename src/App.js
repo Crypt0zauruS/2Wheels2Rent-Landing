@@ -71,8 +71,12 @@ function App() {
                 de louer un vélo à votre convenance, de manière sûre et
                 transparente !
                 <br />
+                <strong>Créez</strong> votre NFT personnel, pour gérer vos
+                locations !
+                <br />
                 <strong>Profitez</strong> d'un moyen de transport pratique,
-                abordable, écologique et gagner des W2R !
+                écologique et gratifiant... Car plus longtemps vous louez, plus
+                vous gagner des tokens W2R !
                 <br />
                 <strong>Rejoignez</strong> notre communauté et découvrez les
                 avantages des tokens W2R !
@@ -101,14 +105,21 @@ function App() {
             </li>
             <hr />
             <li>
-              <strong>🚴🏼 Smart contract :</strong>
+              <strong>🚴🏼 NFT Personnel :</strong>
               <br />
               <br /> Un smart contract est créé pour chaque location de vélo,
-              qui contient les termes et conditions de la location, les frais de
-              location et les informations sur les parties impliquées. Paiement
-              : Les utilisateurs paient les frais de location en utilisant leur
-              wallet décentralisé. Une caution est également déposée dans le
-              smart contract.
+              aussi bien pour le propriétaire que pour l'utilisateur. Il
+              contient les termes et conditions de la location, les frais de
+              location et les informations sur les parties impliquées. Chaque
+              Contrat est lié au NFT personnel de l'utilisateur.
+            </li>
+            <hr />
+            <li>
+              <strong>🚴🏼 Paiement :</strong>
+              <br />
+              <br /> Les utilisateurs paient les frais de location en utilisant
+              leur wallet décentralisé. Une caution est également déposée dans
+              le smart contract.
             </li>
             <hr />
             <li>
@@ -140,6 +151,18 @@ function App() {
               Il permettent aussi de participer à la gouvernance de la
               communauté ainsi que de générer un revenu passif grâce au staking
               des tokens W2R.
+            </li>
+            <hr />
+            <li>
+              <strong>🚵🏿‍♂️ Les tokens W2R :</strong>
+              <br />
+              <br />
+              <em>Les tokens W2R</em> récompensant chaque location peuvent être
+              échangés sur d'autres plateformes, ce qui permet aux utilisateurs
+              de les utiliser pour d'autres opérations. <br />
+              Il permettent aussi de participer à la gouvernance de la
+              communauté ainsi que de générer un revenu passif grâce à leur
+              staking sur notre plateforme !
             </li>
           </ul>
         </div>

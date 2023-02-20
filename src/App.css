@@ -86,6 +86,7 @@ a .btn {
 
 /* Accueil */
 .hero {
+  min-height: 700px !important;
   height: 100vh;
   display: flex;
   align-items: center;
