@@ -89,13 +89,24 @@ function App() {
         <div className="heroD"></div>
       </section>
       <section className="discord">
-        <div className="container" data-aos="animate__animated animate__zoomIn">
-          <h1>
-            <em>🚲 Comment cela fonctionne-t-il ?</em>
-          </h1>
+        <div className="container">
+          <div>
+            <h1
+              data-aos="animate__animated animate__zoomInLeft"
+              style={{ display: "inline-block" }}
+            >
+              <em>🚲 Comment cela</em>
+            </h1>{" "}
+            <h1
+              data-aos="animate__animated animate__zoomInRight"
+              style={{ display: "inline-block" }}
+            >
+              <em> fonctionne-t-il ?</em>
+            </h1>
+          </div>
           <hr />
           <ul>
-            <li>
+            <li data-aos="animate__animated animate__zoomIn">
               <strong>🚴🏽‍♀️ Inscription :</strong>
               <br />
               <br /> Les propriétaires de vélos peuvent s'inscrire sur la
@@ -104,7 +115,7 @@ function App() {
               photos.
             </li>
             <hr />
-            <li>
+            <li data-aos="animate__animated animate__zoomIn">
               <strong>🚴🏽‍♀️ Location :</strong>
               <br />
               <br /> Les utilisateurs peuvent parcourir les offres de location
@@ -112,7 +123,7 @@ function App() {
               déterminée.
             </li>
             <hr />
-            <li>
+            <li data-aos="animate__animated animate__zoomIn">
               <strong>🚴🏼 NFT Personnel :</strong>
               <br />
               <br /> Un smart contract est créé pour chaque location de vélo,
@@ -122,7 +133,7 @@ function App() {
               Contrat est lié au NFT personnel de l'utilisateur.
             </li>
             <hr />
-            <li>
+            <li data-aos="animate__animated animate__zoomIn">
               <strong>🚴🏼 Paiement :</strong>
               <br />
               <br /> Les utilisateurs paient les frais de location en utilisant
@@ -130,7 +141,7 @@ function App() {
               également déposée dans le smart contract.
             </li>
             <hr />
-            <li>
+            <li data-aos="animate__animated animate__zoomIn">
               <strong>🚵🏼‍♀️ Utilisation :</strong>
               <br />
               <br /> Le propriétaire du vélo le remet à l'utilisateur, et
@@ -141,7 +152,7 @@ function App() {
               caution au locataire.
             </li>
             <hr />
-            <li>
+            <li data-aos="animate__animated animate__zoomIn">
               <strong>🚵🏿‍♂️ Avantages de cette application :</strong>
               <br />
               <br /> Les propriétaires de vélos peuvent gagner un revenu
@@ -155,7 +166,7 @@ function App() {
               nécessité d'une tierce partie. <br />
             </li>
             <hr />
-            <li>
+            <li data-aos="animate__animated animate__zoomIn">
               <img
                 src={w2r}
                 alt="W2R"
@@ -207,7 +218,7 @@ function App() {
           </div>
           <div
             className="bloc"
-            data-aos="animate__animated animate__fadeInRightBig"
+            data-aos="animate__animated animate__fadeInLeftBig"
           >
             <div className="number off">3</div>
             <h4>2023-04-10</h4>
@@ -235,7 +246,7 @@ function App() {
               data-aos="animate__animated animate__bounceInRight"
             >
               <h4>
-                Maxence / <span className="job">Développeur</span>
+                Maxence / <span className="job">Développeur Ethereum</span>
               </h4>
               <img src={max} alt="Max" />
             </div>
@@ -244,7 +255,7 @@ function App() {
               data-aos="animate__animated animate__bounceInLeft"
             >
               <h4>
-                Ludovic / <span className="job">Consultant</span>
+                Ludovic / <span className="job">Finance décentralisée</span>
               </h4>
               <img src={ludo} alt="Ludo" />
             </div>
@@ -253,7 +264,7 @@ function App() {
               data-aos="animate__animated animate__lightSpeedInRight"
             >
               <h4>
-                Franck / <span className="job">Consultant</span>
+                Franck / <span className="job">Finance décentralisée</span>
               </h4>
               <img src={franck} alt="question" />
             </div>
@@ -262,7 +273,7 @@ function App() {
               data-aos="animate__animated animate__lightSpeedInLeft"
             >
               <h4>
-                Thierry / <span className="job">Consultant</span>
+                Thierry / <span className="job">Consultant Blockchain</span>
               </h4>
               <img src={thierry} alt="question" />
             </div>
