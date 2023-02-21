@@ -307,12 +307,12 @@ a .btn {
 .disclaimer {
   position: fixed;
   z-index: 2;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   float: left;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  padding: 40px;
+  padding: 20px;
   border-radius: 20px;
   background: var(--color1);
   color: var(--color2);
@@ -367,9 +367,24 @@ footer button {
 }
 
 /* Responsive */
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  .member {
+    width: 300px !important;
+  }
+  .member img {
+    object-fit: contain !important;
+  }
+
   .hero .heroD {
     display: none;
+  }
+
+  .heroG p {
+    font-size: 1rem !important;
   }
 
   .hero .heroD,
@@ -386,6 +401,11 @@ footer button {
     flex-direction: column;
   }
 
+  .team__flex img {
+    max-width: 300px;
+    padding: 20px;
+  }
+
   .team__flex .member {
     margin-bottom: 3rem;
   }
@@ -394,35 +414,10 @@ footer button {
     margin-bottom: 0;
   }
 
-  .team .member {
-    width: 100%;
-  }
-}
-
-@media all and (max-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-
   .disclaimer {
-    padding: 20px;
-    font-size: 1.2rem;
-  }
-
-  .team__flex img {
-    max-width: 300px;
-    padding: 20px;
-  }
-
-  .heroG p {
-    font-size: 1rem !important;
-  }
-
-  .member {
-    width: 300px !important;
-  }
-  .member img {
-    object-fit: contain !important;
+    padding: 10px;
+    width: 90%;
+    font-size: 1rem;
   }
 }
 
