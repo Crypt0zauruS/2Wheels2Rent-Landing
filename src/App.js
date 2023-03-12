@@ -73,8 +73,8 @@ function App() {
                 de louer un vélo à votre convenance, de manière sûre et
                 transparente !
                 <br />
-                <strong>Créez</strong> votre NFT personnel, pour gérer vos
-                locations !
+                <strong>Créez automatiquement</strong> votre NFT personnel, pour
+                bénéficier des avantages de notre plateforme !
                 <br />
                 <strong>Profitez</strong> d'un moyen de transport pratique,
                 écologique et gratifiant... Car plus longtemps vous louez, plus
