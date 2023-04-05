@@ -83,6 +83,15 @@ function App() {
                 <strong>Rejoignez</strong> notre communauté et découvrez les
                 avantages des tokens W2R !
               </p>
+              <hr />
+              <br />
+              <a
+                href="https://crypt0zauru-s-alyra-2-wheels2-rent-project.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn">Accédez à notre application !</button>
+              </a>
             </div>
           </div>
         </div>
@@ -124,7 +133,19 @@ function App() {
             </li>
             <hr />
             <li data-aos="animate__animated animate__zoomIn">
-              <strong>🚴🏼 NFT Personnel :</strong>
+              <strong>🚴🏼 NFT personnel :</strong>
+              <br />
+              <br /> Un NFT est créé lorsqu'un utilisateur s'inscrit sur notre
+              plateforme grâce à son wallet décentralisé. Ce NFT est lié à son
+              compte utilisateur et contient toutes les informations importantes
+              du vélo du loueur. Evidemment, l'emprunteur a également un NFT
+              personnel. Ce NFT permettra à l'utilisateur de bénéficier de
+              nombreux avantages sur notre plateforme, participer à la future
+              gouvernance, ainsi que d'accéder à un notre discord communautaire.
+            </li>
+            <hr />
+            <li data-aos="animate__animated animate__zoomIn">
+              <strong>🚴🏼 Smart Contract personnel :</strong>
               <br />
               <br /> Un smart contract est créé pour chaque location de vélo,
               aussi bien pour le propriétaire que pour l'utilisateur. Il
@@ -138,7 +159,9 @@ function App() {
               <br />
               <br /> Les utilisateurs paient les frais de location en utilisant
               leur wallet décentralisé. Pour le locataire, une caution est
-              également déposée dans le smart contract.
+              également déposée dans le smart contract. Les fonds en W2R
+              circulent entre les smarts contracts, tout l'historique des
+              locations est conservé !
             </li>
             <hr />
             <li data-aos="animate__animated animate__zoomIn">
@@ -176,11 +199,13 @@ function App() {
               <br />
               <br />
               <em>Les tokens W2R</em>, récompensant chaque location, peuvent
-              être échangés sur d'autres plateformes, ce qui permet aux
-              utilisateurs de les utiliser pour d'autres opérations. <br />
-              Il permettent aussi de participer à la gouvernance de la
-              communauté ainsi que de générer un revenu passif grâce à leur
-              staking sur notre plateforme !
+              être échangés contre du MATIC sur notre DEX intégré à
+              l'application: ils permettent de générer un revenu passif grâce à
+              leur staking sur notre plateforme ! <br />
+              Pour se procurer d'autres W2R, il suffit de les échanger contre du
+              MATIC sur notre DEX, et bientôt sur d'autres plateformes. <br />
+              Il permettront aussi de participer à la gouvernance de la
+              communauté.
             </li>
           </ul>
         </div>
