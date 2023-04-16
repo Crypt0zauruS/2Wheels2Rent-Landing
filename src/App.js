@@ -51,6 +51,19 @@ function App() {
                 <i className="fab fa-discord"></i>
               </a>
             </li>
+            <li>
+              <a
+                href="https://alyra.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://global-uploads.webflow.com/638473041a643140c382a182/63879a125164a0a69796bb7b_header%20image%20logo.svg"
+                  alt="Alyra logo"
+                  style={{ width: "60px", height: "60px", borderRadius: "50%" }}
+                />
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -147,20 +160,20 @@ function App() {
             <li data-aos="animate__animated animate__zoomIn">
               <strong>🚴🏼 Smart Contract personnel :</strong>
               <br />
-              <br /> Un smart contract est créé pour chaque location de vélo,
-              aussi bien pour le propriétaire que pour l'utilisateur. Il
-              contient les termes et conditions de la location, les frais de
-              location et les informations sur les parties impliquées. Chaque
-              Contrat est lié au NFT personnel de l'utilisateur.
+              <br /> Un smart contract est créé pour chaque loueur et
+              emprunteur. Il contient les termes et conditions des locations,
+              les frais de locations et les informations sur les parties
+              impliquées. Chaque Contrat loueur vérifie le NFT personnel de
+              l'emprunteur et vice-versa.
             </li>
             <hr />
             <li data-aos="animate__animated animate__zoomIn">
               <strong>🚴🏼 Paiement :</strong>
               <br />
-              <br /> Les utilisateurs paient les frais de location en utilisant
-              leur wallet décentralisé. Pour le locataire, une caution est
-              également déposée dans le smart contract. Les fonds en W2R
-              circulent entre les smarts contracts, tout l'historique des
+              <br /> Les utilisateurs paient les frais de location en tokens W2R
+              en utilisant leur wallet décentralisé. Pour le locataire, une
+              caution est également déposée dans le smart contract. Les fonds en
+              W2R circulent entre les smarts contracts, tout l'historique des
               locations est conservé !
             </li>
             <hr />
@@ -198,10 +211,11 @@ function App() {
               <strong>Les tokens W2R :</strong>
               <br />
               <br />
-              <em>Les tokens W2R</em>, récompensant chaque location, peuvent
-              être échangés contre du MATIC sur notre DEX intégré à
-              l'application: ils permettent de générer un revenu passif grâce à
-              leur staking sur notre plateforme ! <br />
+              <em>Les tokens W2R</em>, utilisés pour le paiement mais aussi
+              récompensant chaque location, peuvent être échangés contre du
+              MATIC sur notre DEX intégré à l'application: ils permettent de
+              générer un revenu passif grâce à leur staking sur notre plateforme
+              ! <br />
               Pour se procurer d'autres W2R, il suffit de les échanger contre du
               MATIC sur notre DEX, et bientôt sur d'autres plateformes. <br />
               Il permettront aussi de participer à la gouvernance de la
@@ -224,10 +238,14 @@ function App() {
             className="bloc"
             data-aos="animate__animated animate__fadeInLeftBig"
           >
-            <div className="number">1</div>
+            <div className="number off">1</div>
             <h4>2023-03-13</h4>
-            <h4>Validation du lancement du projet</h4>
-            <p>Elaboration de la version 1 de 2Wheels2Rent</p>
+            <h4>Validation du lancement du projet par Alyra</h4>
+            <p>
+              Elaboration de la version 1 de 2Wheels2Rent, projet de
+              certifications Développeur Blockchain & Méthodologie Agile, à
+              l'école Alyra.
+            </p>
           </div>
           <div
             className="bloc"
@@ -246,12 +264,26 @@ function App() {
             data-aos="animate__animated animate__fadeInLeftBig"
           >
             <div className="number off">3</div>
-            <h4>2023-04-10</h4>
+            <h4>2023-04-12</h4>
             <h4>Soutenance de la version 2</h4>
             <p>
-              Présentation de 2Wheels2Rent à l'ensemble face à un jury d'experts
-              du web3. La date peut varier en fonction des disponibilités des
-              experts.
+              Présentation de 2Wheels2Rent face à un jury d'experts du web3.
+              Cette soutenance permettra la reconnaissance du projet
+              2Wheels2Rent par Alyra et validera le lancement de la version 3.
+            </p>
+          </div>
+          <div
+            className="bloc"
+            data-aos="animate__animated animate__fadeInRightBig"
+          >
+            <div className="number">4</div>
+            <h4>2023-04-18</h4>
+            <h4>Résultat de la soutenance</h4>
+            <p>
+              On attend patiemment le résultat de la soutenance pour lancer la
+              version 3 de 2Wheels2Rent, qui deviendra un projet web3 à part
+              entière suite à sa reconnaissance par les experts web3. Cette date
+              peut être soumise à modification.
             </p>
           </div>
         </div>
