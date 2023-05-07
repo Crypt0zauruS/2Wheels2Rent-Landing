@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import "animate.css";
 import "./App.css";
 import AOS from "aos";
-import Wheels2Rent from "./img/2Wheels2Rent.png";
 import max from "./img/max.png";
 import ludo from "./img/ludo.png";
 import franck from "./img/franck.png";
@@ -44,14 +43,32 @@ function App() {
           <ul>
             <li>
               <a
-                href="https://discord.com/channels/861560988683862026/1075695513539723264"
+                href="https://www.linkedin.com/in/maxence-a-a82081260"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fab fa-discord"></i>
+                <i className="fab fa-linkedin"></i>
               </a>
             </li>
             <li>
+              <a
+                href="https://twitter.com/CryptosaurusRe4"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Crypt0zauruS/Crypt0zauruS-Alyra-2Wheels2Rent-Project-"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github"></i>
+              </a>
+            </li>
+            <li style={{ background: "white", marginTop: "2px" }}>
               <a
                 href="https://alyra.fr"
                 target="_blank"
@@ -60,7 +77,7 @@ function App() {
                 <img
                   src="https://global-uploads.webflow.com/638473041a643140c382a182/63879a125164a0a69796bb7b_header%20image%20logo.svg"
                   alt="Alyra logo"
-                  style={{ width: "60px", height: "60px", borderRadius: "50%" }}
+                  style={{ width: "45px", height: "45px", borderRadius: "50%" }}
                 />
               </a>
             </li>
@@ -69,13 +86,6 @@ function App() {
 
         <div className="heroG">
           <div>
-            <img
-              data-aos="animate__animated animate__fadeInRightBig"
-              className="shadowfilter"
-              id="Wheels2Rent"
-              src={Wheels2Rent}
-              alt="Wheels2Rent"
-            />
             <div data-aos="animate__animated animate__backInLeft">
               <p>
                 Vous cherchez un moyen de transport pratique et économique pour
@@ -154,7 +164,8 @@ function App() {
               du vélo du loueur. Evidemment, l'emprunteur a également un NFT
               personnel. Ce NFT permettra à l'utilisateur de bénéficier de
               nombreux avantages sur notre plateforme, participer à la future
-              gouvernance, ainsi que d'accéder à un notre discord communautaire.
+              gouvernance, ainsi que d'accéder à un notre futur discord
+              communautaire.
             </li>
             <hr />
             <li data-aos="animate__animated animate__zoomIn">
@@ -253,7 +264,7 @@ function App() {
           >
             <div className="number off">2</div>
             <h4>2023-03-27</h4>
-            <h4>Lancement de la version 1</h4>
+            <h4>Lancement de la version beta</h4>
             <p>
               Elaboration de la version 2 de 2Wheels2Rent avec amélioration et
               ajout de fonctionnalités supplémentaires
@@ -265,7 +276,7 @@ function App() {
           >
             <div className="number off">3</div>
             <h4>2023-04-12</h4>
-            <h4>Soutenance de la version 2</h4>
+            <h4>Soutenance de la version 1.0.0</h4>
             <p>
               Présentation de 2Wheels2Rent face à un jury d'experts du web3.
               Cette soutenance permettra la reconnaissance du projet
@@ -276,14 +287,33 @@ function App() {
             className="bloc"
             data-aos="animate__animated animate__fadeInRightBig"
           >
-            <div className="number">4</div>
-            <h4>2023-04-18</h4>
-            <h4>Résultat de la soutenance</h4>
+            <div className="number off">4</div>
+            <h4>2023-04-12</h4>
+            <h4>Résultat de la soutenance et lancement de la version 1.1.0</h4>
             <p>
-              On attend patiemment le résultat de la soutenance pour lancer la
-              version 3 de 2Wheels2Rent, qui deviendra un projet web3 à part
-              entière suite à sa reconnaissance par les experts web3. Cette date
-              peut être soumise à modification.
+              Suite au résultat plus que positif de la soutenance, 2Wheels2Rent
+              devient un projet web3 à part entière suite à sa reconnaissance
+              par les experts web3. De nombreuses améliorations seront apportées
+              pour la version 1.2.0 !
+            </p>
+          </div>
+          <div
+            className="bloc"
+            data-aos="animate__animated animate__fadeInRightBig"
+          >
+            <div className="number">5</div>
+            <h4>2023-05-07</h4>
+            <h4>Lancement de la version 1.2.0</h4>
+            <p>
+              Ajout du staking des Tokens W2R, de nombreuses améliorations à
+              découvrir ! Liste dans le readMe du projet{" "}
+              <a
+                href="https://github.com/Crypt0zauruS/Crypt0zauruS-Alyra-2Wheels2Rent-Project-"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
             </p>
           </div>
         </div>
