@@ -253,7 +253,7 @@ function App() {
             <h4>2023-03-13</h4>
             <h4>Validation du lancement du projet par Alyra</h4>
             <p>
-              Elaboration de la version 1 de 2Wheels2Rent, projet de
+              Elaboration de la version beta 1 de 2Wheels2Rent, projet de
               certifications Développeur Blockchain & Méthodologie Agile, à
               l'école Alyra.
             </p>
@@ -266,8 +266,8 @@ function App() {
             <h4>2023-03-27</h4>
             <h4>Lancement de la version beta</h4>
             <p>
-              Elaboration de la version 2 de 2Wheels2Rent avec amélioration et
-              ajout de fonctionnalités supplémentaires
+              Elaboration de la version beta 2 de 2Wheels2Rent avec amélioration
+              et ajout de fonctionnalités supplémentaires
             </p>
           </div>
           <div
@@ -288,13 +288,12 @@ function App() {
             data-aos="animate__animated animate__fadeInRightBig"
           >
             <div className="number off">4</div>
-            <h4>2023-04-12</h4>
+            <h4>2023-04-18</h4>
             <h4>Résultat de la soutenance et lancement de la version 1.1.0</h4>
             <p>
               Suite au résultat plus que positif de la soutenance, 2Wheels2Rent
-              devient un projet web3 à part entière suite à sa reconnaissance
-              par les experts web3. De nombreuses améliorations seront apportées
-              pour la version 1.2.0 !
+              devient un projet web3 à part entière. De nombreuses améliorations
+              seront apportées pour la version 1.2.0 !
             </p>
           </div>
           <div
