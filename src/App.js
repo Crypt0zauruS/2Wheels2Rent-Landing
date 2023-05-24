@@ -97,7 +97,10 @@ function App() {
                 transparente !
                 <br />
                 <strong>Créez automatiquement</strong> votre NFT personnel, pour
-                bénéficier des avantages de notre plateforme !
+                bénéficier des avantages de notre plateforme !{" "}
+                <a href="#process">
+                  <strong style={{ color: "green" }}>En savoir plus</strong>
+                </a>
                 <br />
                 <strong>Profitez</strong> d'un moyen de transport pratique,
                 écologique et gratifiant... Car plus longtemps vous louez, plus
@@ -105,6 +108,14 @@ function App() {
                 <br />
                 <strong>Rejoignez</strong> notre communauté et découvrez les
                 avantages des tokens W2R !
+                <br />
+                <a href="#roadmap">
+                  <strong style={{ color: "green" }}>Notre roadmap</strong>
+                </a>
+                <br />
+                <a href="#team">
+                  <strong style={{ color: "green" }}>La Team</strong>
+                </a>
               </p>
               <hr />
               <br />
@@ -121,7 +132,7 @@ function App() {
         <div className="heroD"></div>
       </section>
       <section className="discord">
-        <div className="container">
+        <div className="container" id="process">
           <div>
             <h1
               data-aos="animate__animated animate__zoomInLeft"
@@ -235,7 +246,7 @@ function App() {
           </ul>
         </div>
       </section>
-      <div className="roadmap">
+      <div className="roadmap" id="roadmap">
         <div className="container">
           <h2 data-aos="animate__animated animate__zoomIn">
             <em>
@@ -317,7 +328,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="team">
+      <div className="team" id="team">
         <div className="container">
           <h2 data-aos="animate__animated animate__tada">
             🚲{" "}
