@@ -134,12 +134,12 @@ function App() {
       <section className="discord">
         <div className="container">
           <div>
+            <h1 id="process">🚲</h1>
             <h1
               data-aos="animate__animated animate__zoomInLeft"
               style={{ display: "inline-block" }}
-              id="process"
             >
-              <em>🚲 Comment cela</em>
+              <em>Comment cela</em>
             </h1>{" "}
             <h1
               data-aos="animate__animated animate__zoomInRight"
@@ -329,9 +329,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="team" id="team">
+      <div className="team">
         <div className="container">
-          <h2 data-aos="animate__animated animate__tada">
+          <h2 data-aos="animate__animated animate__tada" id="team">
             🚲{" "}
             <em>
               <span style={{ color: "rgb(2,188,107)" }}>The</span>{" "}
