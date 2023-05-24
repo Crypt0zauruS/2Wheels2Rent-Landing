@@ -134,11 +134,12 @@ function App() {
       <section className="discord">
         <div className="container">
           <div>
+            <h1 id="process">🚲</h1>
             <h1
               data-aos="animate__animated animate__zoomInLeft"
               style={{ display: "inline-block" }}
             >
-              <em>🚲 Comment cela</em>
+              <em>Comment cela</em>
             </h1>{" "}
             <h1
               data-aos="animate__animated animate__zoomInRight"
@@ -149,7 +150,7 @@ function App() {
           </div>
           <hr />
           <ul>
-            <li data-aos="animate__animated animate__zoomIn" id="process">
+            <li data-aos="animate__animated animate__zoomIn">
               <strong>🚴🏽‍♀️ Inscription :</strong>
               <br />
               <br /> Les propriétaires de vélos peuvent s'inscrire sur la
