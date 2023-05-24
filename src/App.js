@@ -132,11 +132,12 @@ function App() {
         <div className="heroD"></div>
       </section>
       <section className="discord">
-        <div className="container" id="process">
+        <div className="container">
           <div>
             <h1
               data-aos="animate__animated animate__zoomInLeft"
               style={{ display: "inline-block" }}
+              id="process"
             >
               <em>🚲 Comment cela</em>
             </h1>{" "}
@@ -246,9 +247,9 @@ function App() {
           </ul>
         </div>
       </section>
-      <div className="roadmap" id="roadmap">
+      <div className="roadmap">
         <div className="container">
-          <h2 data-aos="animate__animated animate__zoomIn">
+          <h2 data-aos="animate__animated animate__zoomIn" id="roadmap">
             <em>
               🚵🏾‍♀️
               <span style={{ color: "rgb(2,188,107)" }}>The</span>{" "}
