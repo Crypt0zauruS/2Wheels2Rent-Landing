@@ -52,15 +52,6 @@ function App() {
             </li>
             <li>
               <a
-                href="https://twitter.com/CryptosaurusRe4"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a
                 href="https://github.com/Crypt0zauruS/Crypt0zauruS-Alyra-2Wheels2Rent-Project-"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -381,7 +372,9 @@ function App() {
       <footer>
         <div className="container">
           <div className="footer__flex">
-            <div className="footerG">2Wheels2Rent &copy; - 2023</div>
+            <div className="footerG">
+              2Wheels2Rent &copy; - {new Date().getFullYear()}
+            </div>
             <div className="footerD" id="footer">
               <ul>
                 <li>
