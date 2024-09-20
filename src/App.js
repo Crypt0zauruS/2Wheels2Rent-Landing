@@ -83,9 +83,9 @@ function App() {
                 vos déplacements en ville ?
                 <br />
                 <strong>Découvrez 2Wheels2Rent !</strong> <br />
-                Notre plateforme de partage de vélos décentralisée vous permet
-                de louer un vélo à votre convenance, de manière sûre et
-                transparente !
+                Notre plateforme de partage de vélos décentralisée sur Polygon
+                Network vous permet de louer un vélo à votre convenance, de
+                manière sûre et transparente !
                 <br />
                 <strong>Créez automatiquement</strong> votre NFT personnel, pour
                 bénéficier des avantages de notre plateforme !{" "}
@@ -226,12 +226,12 @@ function App() {
               <br />
               <br />
               <em>Les tokens W2R</em>, utilisés pour le paiement mais aussi
-              récompensant chaque location, peuvent être échangés contre du
-              MATIC sur notre DEX intégré à l'application: ils permettent de
-              générer un revenu passif grâce à leur staking sur notre plateforme
-              ! <br />
+              récompensant chaque location, peuvent être échangés contre du POL
+              sur notre DEX intégré à l'application sur Polygon Network: ils
+              permettent de générer un revenu passif grâce à leur staking sur
+              notre plateforme ! <br />
               Pour se procurer d'autres W2R, il suffit de les échanger contre du
-              MATIC sur notre DEX, et bientôt sur d'autres plateformes. <br />
+              POL sur notre DEX, et bientôt sur d'autres plateformes. <br />
               Il permettront aussi de participer à la gouvernance de la
               communauté.
             </li>
